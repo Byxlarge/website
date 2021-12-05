@@ -5,7 +5,7 @@
     <div
       class="md:flex hidden focus:outline-none"
       :class="{
-        'fixed w-full h-full': itemLoaded === false,
+        'fixed w-full max-h-[100vh]': itemLoaded === false,
       }"
       :style="{
         backgroundImage: itemLoaded === true ? `url('${image}')` : '',
