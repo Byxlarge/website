@@ -35,7 +35,7 @@ export default {
         'C#',
         'Python',
         'Vue.js',
-        'Nuxt.js',
+        'Flutter',
         'WindiCSS',
         'Firebase',
         'Node.js',
