@@ -18,7 +18,7 @@
     <div class="bg-gray-900 grid bg-opacity-30 flex p-4 rounded-md">
       <div class="flex space-x-2 items-center">
         <img
-          :src="`https://cdn.discordapp.com/avatars/404360912460578816/${this.lanyard.discord_user.avatar}`"
+          :src="`https://cdn.discordapp.com/avatars/331402966403776523/${this.lanyard.discord_user.avatar}`"
           class="w-9 h-9 rounded-full"
           alt=""
           v-tooltip="'Its me MARIO!'"
