@@ -141,7 +141,7 @@ export default {
         JSON.stringify({
           op: 2,
           d: {
-            subscribe_to_id: '404360912460578816',
+            subscribe_to_id: '331402966403776523',
           },
         })
       )
