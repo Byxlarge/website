@@ -47,7 +47,7 @@ export default {
           image:
             'https://crosstech.com.tr/wp-content/uploads/2020/08/Papara-780x675.png',
           name: 'Papara',
-          iban: '1212538229',
+          iban: '116887862',
           revealed: false,
         },
       ],
@@ -69,7 +69,7 @@ export default {
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `mehmetali345, mehmetali345 blog, blog, teknoloji, vue, yazılım, discord, mehmetali_345, gönderi`,
+          content: `eren-pilatin, byxlarge blog, blog, teknoloji, flutter, yazılım, discord, byxlarge, gönderi, dart`,
         },
         // Open-Graph
         {

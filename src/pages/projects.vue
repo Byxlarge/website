@@ -48,32 +48,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      repos: [],
-      projects: [
-        {
-          title: '345 Launcher',
-          image: 'https://i.vgy.me/4oVLsP.png',
-          description: 'Lightweight and advanced Minecraft Launcher',
-          link: 'https://github.com/mehmetali345dev/345-launcher',
-        },
-        {
-          title: 'RepeatPay',
-          image: 'https://repeatpay.ga/icon.png',
-          description:
-            'New open-source donate system for community. Easy, fast and secure.',
-          link: 'https://repeatpay.ga',
-        },
-        {
-          title: 'mehmetali345.xyz',
-          image: 'https://mehmetali345.xyz/icon.png',
-          description: 'My personal portfolio made by NuxtJS and WindiCSS',
-          link: '/',
-        },
-      ],
-    }
-  },
   computed: {
     getProjects() {
       return {
@@ -85,7 +59,7 @@ export default {
   fetchOnServer: false,
   async fetch() {
     const { data: repos } = await this.$axios.get(
-      'https://api.github.com/users/mehmetali345dev/repos?per_page=100'
+      'https://api.github.com/users/Byxlarge/repos?per_page=100'
     )
     this.repos = repos
       ?.filter((repo) => repo.fork === false)
