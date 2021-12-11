@@ -9,7 +9,7 @@ export default async function () {
   }
 
   return {
-    hostname: "https://345dev.me",
+    hostname: "https://byxlarge.me",
     gzip: true,
     routes,
   }
