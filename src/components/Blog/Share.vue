@@ -17,7 +17,7 @@
       </button>
       <button
         @click="
-          share('https://twitter.com/intent/tweet?via=AnakinS07677978&text=')
+          share('https://twitter.com/intent/tweet?text=')
         "
         target="_"
         class="button"
